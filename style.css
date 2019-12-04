@@ -20,9 +20,10 @@ h2 {
 
 h3 {
   font-size:17px;
-  color: #737373;
+  color: black;
   font-family: 'Oswald', sans-serif;
   text-align: center;
+  font-weight: bolder;
 }
 
 body {

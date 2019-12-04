@@ -117,3 +117,8 @@ blockquote {
     float: center;
     margin-bottom: 10px;
 }
+
+.insight {
+  margin-top: 20px;
+  margin-bottom: -20px;
+}

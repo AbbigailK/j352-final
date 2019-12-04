@@ -31,9 +31,11 @@ body {
   color: black;
 }
 
-h5 {font-size:13px;
+h5 {
+  font-size:13px;
   color: black;
   font-family: 'Oswald', sans-serif;
+  margin-top: 25px;
 }
 
 .photo1 img {
@@ -41,6 +43,35 @@ h5 {font-size:13px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.photo1 p {
+  color: black;
+  font-weight: lighter;
+  font-size: 8px;
+  margin-top: 0px;
+  align-items: baseline;
+  text-align: center;
+}
+
+.photo2 {
+  float: left;
+  display: inline-block;
+  width: 45%;
+  margin-right: 10px;
+}
+
+.photo2 img {
+    width: 100%;
+}
+
+.photo2 p {
+  color: black;
+  font-weight: lighter;
+  font-size: 8px;
+  margin-top: 0px;
+  align-items: baseline;
+  margin-right: 50px;
 }
 
 blockquote {
@@ -53,4 +84,36 @@ blockquote {
   margin-left: 50px;
   padding-left: 15px;
   border-left: 4px solid #ccc;
+}
+
+.photo3 img, .photo4 img{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.photo5 img, .photo6 img {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.photo7 img, .photo8 img{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.photo9 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    margin-bottom: 10px;
 }

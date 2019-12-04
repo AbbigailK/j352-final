@@ -3,7 +3,7 @@
   width: 900px;
 }
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   color: black;
   text-align: center;
   margin-bottom: 2px;
@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-  font-size:17px;
+  font-size:20px;
   color: black;
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -28,11 +28,19 @@ h3 {
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 15.5px;
   color: black;
 }
 
 h5 {
+  font-size:15.5px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.credit a {
   font-size:13px;
   color: black;
   font-family: 'Oswald', sans-serif;
@@ -75,7 +83,7 @@ h5 {
   margin-right: 50px;
 }
 
-blockquote {
+.quote {
   font: 16px/24px helvetica, sans-serif;
   font-style: italic;
   margin-top: 10px;
@@ -86,6 +94,18 @@ blockquote {
   padding-left: 15px;
   border-left: 4px solid #ccc;
 }
+
+.speaker {
+  font: 12px/14px helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: lighter;
+  margin-left: 50px;
+  padding-left: 15px;
+}
+
 
 .photo3 img, .photo4 img{
   width: 75%;
@@ -116,10 +136,16 @@ blockquote {
     margin-left: auto;
     margin-right: auto;
     float: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .insight {
   margin-top: 20px;
   margin-bottom: -20px;
+}
+
+.chartrow {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

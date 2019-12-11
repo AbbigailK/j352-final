@@ -1,6 +1,6 @@
 #content {
-  margin: 0 auto;
-  width: 500px;
+  margin: auto;
+  width: 700px;
 }
 h1 {
   font-size: 40px;
@@ -36,7 +36,7 @@ h5 {
   font-size:15.5px;
   color: black;
   font-family: 'Oswald', sans-serif;
-  margin-top: 25px;
+  margin-top: 15px;
   font-weight: bold;
 }
 
@@ -80,7 +80,7 @@ h5 {
   font-size: 8px;
   margin-top: 0px;
   align-items: baseline;
-  margin-right: 50px;
+  text-align: left
 }
 
 .quote {
@@ -95,6 +95,19 @@ h5 {
   border-left: 4px solid #ccc;
 }
 
+.line {
+  font: 16px/24px helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: lighter;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
+
+
 .speaker {
   font: 12px/14px helvetica, sans-serif;
   font-style: italic;
@@ -107,24 +120,29 @@ h5 {
 }
 
 
+.photo5 {
+  float: left;
+  display: inline-block;
+  width: 45%;
+  margin-right: 10px;
+}
+
+.photo5 img {
+    width: 100%;
+}
+
+.photo5 p {
+  color: black;
+  font-weight: lighter;
+  font-size: 8px;
+  margin-top: 0px;
+  align-items: baseline;
+  text-align: left
+}
+
+
 .photo3 img, .photo4 img{
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.photo5 img, .photo6 img {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 25px;
-}
-
-.photo7 img, .photo8 img{
-  width: 75%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;

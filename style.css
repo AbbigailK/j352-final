@@ -142,11 +142,12 @@ h5 {
 
 
 .photo3 img, .photo4 img{
-  width: 100%;
+  width: 104%;
   margin-left: auto;
   margin-right: auto;
   display: block;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .photo9 img {
